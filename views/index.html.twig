@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Kings Speech</title>
+    <style>
+        @import '/css/style.css';
+        @import '/css/footer.css';
+    </style>
+</head>
+<body>
+<h1>Kings Speech</h1>
+
+<ul>
+    <li>
+        <a href="index.php" class="{% block indexPageLinkStyle %}{% endblock %}">Home</a>
+    </li>
+    <li>
+        <a href="/index.php?action=about" class="{% block aboutPageLinkStyle %}{% endblock %}">About</a>
+    </li>
+    <li>
+        <a href="/index.php?action=gallery" class="{% block galleryPageLinkStyle %}{% endblock %}">Play</a>
+    </li>
+    <li>
+        <a href="/index.php?action=login" class="{% block loginPageLinkStyle %}{% endblock %}">Login</a>
+    </li>
+    <li>
+        <a href="/index.php?action=contact" class="{% block contactPageLinkStyle %}{% endblock %}">Contact</a>
+    </li>
+    <li>
+        <a href="/shop.php" class="{% block shopPageLinkStyle %}{% endblock %}">Shop</a>
+    </li>
+    <li>
+        <a href="registration.php" class="{% block registrationPageLinkStyle %}{% endblock %}">Registration</a>
+    </li>
+</ul>
+
+
+<hr>
+
+{% block main %}
+
+    <p>This is a website created for a <strong>Web Development Project.</strong> This website is based on the play King's Speech.
+        It was written by David Seidler in 2012. It's aim is show how the british King George VI learned how to control and overcome his stammer.
+
+    </p>
+
+    <p>
+        Kings Speech is a play about King George VI who found it really hard to manage with his stammer.<br>
+        He had a wife Queen Elizabeth who insisted him to meet with Lionel Logue who was originally from australia.<br>
+        Also known as bertie by King George's family. Lionel Logue's role is to help King George VI with his stammer problems.<br>
+        The relationship between the two aren't so great but when things get tough the both are there for one another.<br>
+    </p>
+    <img src ="/images/kingsspeech.jpg"></body>
+
+    <p>If you have recommendations, feel free to email me at
+    <a href="mailto:israel.ogedengbe@yahoo.ie">israel.ogedengbe@yahoo.ie</a></p>
+{% endblock %}
+
+<footer>
+    Copyright &copy; Israel Ogedengbe B00097640
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    background-color: darkred;
+}
+
+.current_page {
+    color:blue;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 40px;
+    overflow: hidden;
+    background-color: black;
+    font-size: 25px;
+}
+
+li {
+    float: left;
+    padding: 10px 40px;
+
+}
+
+li a {
+    color: darkred;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100px;
+}
+
+li a:hover:not(.active) {
+    background-color: blue;
+}
+
+.active {
+    background-color: blue;
+}
+
+form  {
+    width: 20%;
+    background-color:silver;
+    border: 2px solid blue;
+    padding:1rem;
+    display: inline-block;
+}
+
+h1 {
+    background-color: black;
+    color: darkred;
+    text-align: center;
+    padding: 30px
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 5px;
+    border-bottom: 1px solid #aaa;
+}
+
+#btn{
+    color: blue;
+    padding: 5px;
+    margin-left: 69%;
+
+}
+

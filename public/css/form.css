@@ -1,0 +1,7 @@
+form  {
+    width: 20%;
+    background-color:silver;
+    border: 2px solid red;
+    padding:1rem;
+    display: inline-block;
+}

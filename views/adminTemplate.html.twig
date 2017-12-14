@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kings Speech</title>
+    <style>
+        @import '/css/style.css';
+        @import '/css/footer.css';
+    </style>
+</head>
+<body>
+<h1>Kings Speech</h1>
+<ul>
+    <li>
+        <a href="adminIndex.php" class="{% block adminIndexPageLinkStyle %}{% endblock %}">Home</a>
+    </li>
+    <li>
+        <a href="/adminIndex.php?action=adminAbout" class="{% block adminAboutPageLinkStyle %}{% endblock %}">About</a>
+    </li>
+    <li>
+        <a href="/adminIndex.php?action=adminGallery" class="{% block adminGalleryPageLinkStyle %}{% endblock %}">Play</a>
+    </li>
+    <li>
+        <a href="/adminIndex.php?action=adminLogin" class="{% block adminLoginPageLinkStyle %}{% endblock %}">Login</a>
+    </li>
+    <li>
+        <a href="/adminIndex.php?action=adminContact" class="{% block adminContactPageLinkStyle %}{% endblock %}">Contact</a>
+    </li>
+    <li>
+        <a href="/adminShop.php" class="{% block adminShopPageLinkStyle %}{% endblock %}">Shop</a>
+    </li>
+    <li>
+        <a href="adminRegistration.php" class="{% block adminRegistrationPageLinkStyle %}{% endblock %}">Registration</a>
+    </li>
+</ul>
+
+
+<hr>
+
+{% block main %}
+{% endblock %}
+
+<footer>
+    Copyright &copy; Israel Ogedengbe B00097640
+</footer>
+
+</body>
+</html>

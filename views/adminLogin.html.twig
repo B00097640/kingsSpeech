@@ -1,0 +1,18 @@
+{% extends '_template.html.twig' %}
+
+{% block adminLoginPageLinkStyle %}
+
+{% endblock %}
+
+{% block main %}
+    <h2> Login </h2>
+    <form action="formProcess.php" method="post">
+        Username:<br>
+        <input type="text" size="20" maxlength="20" name="username">
+        <br>
+        Password:<br>
+        <input type="password" size="20" maxlength="20" name="password">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}
